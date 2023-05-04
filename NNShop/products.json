@@ -1,0 +1,89 @@
+[{
+  "_id": {
+    "$oid": "63919d0889ba0fdbccb36545"
+  },
+  "name": "Áo đấu Man City",
+  "imageUrl": "1670487304398.jpg",
+  "genres": "clb",
+  "price": "500000 VND",
+  "club": "Manchester City",
+  "amount": 28,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63919d3a89ba0fdbccb36549"
+  },
+  "name": "Áo đấu MU",
+  "imageUrl": "1670487354833.jpg",
+  "genres": "clb",
+  "price": "500000 VND",
+  "club": "Manchester United",
+  "amount": 45,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63919d6089ba0fdbccb3654b"
+  },
+  "name": "Áo đấu tuyển Việt Nam",
+  "imageUrl": "1670487392021.jpg",
+  "genres": "tuyen",
+  "price": "500000 VND",
+  "club": "Việt Nam",
+  "amount": 45,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63919d8889ba0fdbccb3654d"
+  },
+  "name": "Áo đấu Bồ Đào Nha",
+  "imageUrl": "1670487432361.jpg",
+  "genres": "tuyen",
+  "price": "500000 VND",
+  "club": "Bồ Đào Nha",
+  "amount": 40,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63919da589ba0fdbccb3654f"
+  },
+  "name": "Áo đấu Argentina",
+  "imageUrl": "1670487461557.jpg",
+  "genres": "tuyen",
+  "price": "500000 VND",
+  "club": "Argentina",
+  "amount": 35,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63919dc389ba0fdbccb36551"
+  },
+  "name": "Áo đấu tuyển Anh",
+  "imageUrl": "1670487491778.jpg",
+  "genres": "tuyen",
+  "price": "500000 VND",
+  "club": "Anh",
+  "amount": 35,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63919de489ba0fdbccb36553"
+  },
+  "name": "Áo đấu Arsenal",
+  "imageUrl": "1670487524493.jpg",
+  "genres": "clb",
+  "price": "500000 VND",
+  "club": "Arsenal",
+  "amount": 35,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "63919e0689ba0fdbccb36555"
+  },
+  "name": "Áo đấu Chelsea",
+  "imageUrl": "1670487558847.jpg",
+  "genres": "clb",
+  "price": "500000 VND",
+  "club": "Chelsea",
+  "amount": 35,
+  "__v": 0
+}]

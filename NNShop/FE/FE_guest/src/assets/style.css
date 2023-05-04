@@ -1,0 +1,57 @@
+
+.link li a,router-link,a-menu  {
+    list-style: none;
+    text-decoration: none;
+
+}
+.form {
+    width: 700px;
+    border-radius: 20px;
+    padding: 10px;
+}
+.form-item{
+    padding: 20px;
+}
+.sidebar{
+    padding: 10px;
+    width: 200px;
+    font-size: larger;
+    text-align: left;
+    font-weight: 500;
+}
+.nav-active-link {
+    color: blue;
+}
+
+.back {
+    font-size: 40px;
+    margin-bottom: 10px;
+    color: black;
+}
+.top-cart {
+    border: 1px solid yellow;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: 600;
+}
+.top-cart i{
+    color: red;
+    padding: 5px;
+    font-size: 20px;
+}
+.cart-header {
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 500;
+}
+.cart {
+    padding: 10px;
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: 400;
+}
+.mid {
+    min-height: 670px;
+}
