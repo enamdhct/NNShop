@@ -2,7 +2,7 @@
     <div v-if="user" class="form shadow-lg">
 
         <form @submit="EditUser(id, user)"     :validation-schema="userFormSchema" class="form-item" >
-            <h3 class="text-center mt-4">Thay đổi thông tin tài khoản</h3>
+            <h3 class="text-center mt-4">Thay Đổi Thông Tin Tài Khoản</h3>
             <div class="form-group">
                 <div class="row mt-4">
                     <label class="col-sm-2 col-form-label" >Username</label>
@@ -12,20 +12,20 @@
                     <ErrorMessage username="username" class="error-feedback" />
                 </div>
                 <div class="row mt-4" v-if="admin === 'Admin'">
-                    <label class="col-sm-2 col-form-label">Chức năng</label>
+                    <label class="col-sm-2 col-form-label">Chức Năng</label>
                     <div class="col-sm-10">
                         <input type="text" class="form-control"  v-model="user.admin">
                     </div>
                 </div>
                 <div class="row mt-4">
-                    <label class="col-sm-2 col-form-label" for="name">Họ và tên</label>
+                    <label class="col-sm-2 col-form-label" for="name">Họ Và Tên</label>
                     <div class="col-sm-10">
                         <input type="text" name="name" class="form-control"  v-model="user.name">
                     </div>
                     <ErrorMessage name="name" class="error-feedback" />
                 </div>
                 <div class="row mt-4">
-                    <label class="col-sm-2 col-form-label">Số điện thoại</label>
+                    <label class="col-sm-2 col-form-label">Số Điện Thoại</label>
                     <div class="col-sm-10">
                         <input type="number" phone="phone" class="form-control"  v-model="user.phone">
                     </div>
@@ -39,7 +39,7 @@
                     <ErrorMessage email="email" class="error-feedback" />
                 </div>
                 <div class="row mt-4">
-                    <label class="col-sm-2 col-form-label">Địa chỉ</label>
+                    <label class="col-sm-2 col-form-label">Địa Chỉ</label>
                     <div class="col-sm-10">
                         <input type="text" address="address" class="form-control"  v-model="user.address">
                     </div>
@@ -47,10 +47,10 @@
                 </div>
                 <button class="btn btn-primary mt-4">Lưu</button>
                 <router-link :to="{name: 'accountmanager'}" v-if="admin === 'Admin'"> 
-                    <button type="button" class="btn btn-secondary ml-4 mt-4">Quay lại</button>
+                    <button type="button" class="btn btn-secondary ml-4 mt-4">Quay Lại</button>
                 </router-link>
                 <router-link :to="{name: 'usermanager'}" v-else> 
-                    <button type="button" class="btn btn-secondary ml-4 mt-4">Quay lại</button>
+                    <button type="button" class="btn btn-secondary ml-4 mt-4">Quay Lại</button>
                 </router-link>
             </div>
         </form>

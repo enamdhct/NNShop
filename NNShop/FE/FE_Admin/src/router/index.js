@@ -11,12 +11,7 @@ const routes = [
     // // {
     //     path: "/:ten", name: "home-client", component: ProductSport, props: true,
     // },
-    {
-        path: "/login", name: "login", component: login
-    },
-    {
-        path: "/register", name: "register", component: register
-    },
+
     // {
     //     path: "/promotion", name: "promotion", component: Promotion
     // },
@@ -45,9 +40,9 @@ const routes = [
     //     props: true
     // },
     {
-        path: "/statistical",
+        path: "/",
         name: "home",
-        redirect: '/statistical',
+        // redirect: '/statistical',
         component: () => import("@/views/Admin.vue"),
         props:true,
         children: [
@@ -108,6 +103,12 @@ const routes = [
         path: "/:pathMatch(.*)*",
         name: "notfound",
         component: () => import("@/views/NotFound.vue"),
+    },
+    {
+        path: "/login", name: "login", component: login
+    },
+    {
+        path: "/register", name: "register", component: register
     },
     // {
     //     path: "/products/:id",

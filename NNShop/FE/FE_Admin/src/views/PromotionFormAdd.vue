@@ -10,31 +10,31 @@
                     </div>
                 </div>
                 <div class="row mt-4">
-                    <label class="col-sm-2 col-form-label">Ưu đãi</label>
+                    <label class="col-sm-2 col-form-label">Ưu Đãi</label>
                     <div class="col-sm-10">
                         <input type="text" class="form-control"  v-model="promotion.discount">
                     </div>
                 </div>
                 <div class="row mt-4">
-                    <label class="col-sm-2 col-form-label">Thời gian bắt đầu</label>
+                    <label class="col-sm-2 col-form-label">Thời Gian Bắt Đầu</label>
                     <div class="col-sm-10">
                         <input type="text" class="form-control"  v-model="promotion.start">
                     </div>
                 </div>
                 <div class="row mt-4">
-                    <label class="col-sm-2 col-form-label">Thời gian kết thúc</label>
+                    <label class="col-sm-2 col-form-label">Thời Gian Kết Thúc</label>
                     <div class="col-sm-10">
                         <input type="text" class="form-control"  v-model="promotion.end">
                     </div>
                 </div>
                 <div class="row mt-4">
-                    <label class="col-sm-2 col-form-label">Chi tiết</label>
+                    <label class="col-sm-2 col-form-label">Chi Tiết</label>
                     <div class="col-sm-10">
                         <input type="text" class="form-control"  v-model="promotion.description">
                     </div>
                 </div>
                 <div class="row mt-4">
-                    <label class="col-sm-2 col-form-label">Hình ảnh</label>
+                    <label class="col-sm-2 col-form-label">Hình Ảnh</label>
                     <div class="col-sm-10">
                         <input type="file"  @change="previewFiles" multiple  >
                     </div>
@@ -42,7 +42,7 @@
 
                 <button class="btn btn-primary mt-4">Thêm</button>
                 <router-link :to="{name: 'promotionmanager'}"> 
-                    <button type="button" class="btn btn-secondary ml-4 mt-4">Quay lại</button>
+                    <button type="button" class="btn btn-secondary ml-4 mt-4">Quay Lại</button>
                 </router-link>
 
 

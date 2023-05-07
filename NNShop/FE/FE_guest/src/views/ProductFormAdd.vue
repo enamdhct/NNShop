@@ -4,7 +4,7 @@
         <form @submit="AddProduct(product)" class="form-item">
             <div class="form-group" >
                 <div class="row mt-4">
-                    <label class="col-sm-2 col-form-label">Tên sản phẩm</label>
+                    <label class="col-sm-2 col-form-label">Tên Sản Phẩm</label>
                     <div class="col-sm-10">
                         <input type="text" class="form-control"  v-model="product.name">
                     </div>
@@ -16,25 +16,25 @@
                     </div>
                 </div>
                 <div class="row mt-4">
-                    <label class="col-sm-2 col-form-label">Số lượng</label>
+                    <label class="col-sm-2 col-form-label">Số Lượng</label>
                     <div class="col-sm-10">
                         <input type="text" class="form-control"  v-model="product.amount">
                     </div>
                 </div>
                 <div class="row mt-4">
-                    <label class="col-sm-2 col-form-label">Giá bán</label>
+                    <label class="col-sm-2 col-form-label">Giá Bán</label>
                     <div class="col-sm-10">
                         <input type="text" class="form-control"  v-model="product.price">
                     </div>
                 </div>
                 <div class="row mt-4">
-                    <label class="col-sm-2 col-form-label">Biên chế</label>
+                    <label class="col-sm-2 col-form-label">Biên Chế</label>
                     <div class="col-sm-10">
                         <input type="text" class="form-control"  v-model="product.club">
                     </div>
                 </div> 
                 <div class="row mt-4">
-                    <label class="col-sm-2 col-form-label">Hình ảnh</label>
+                    <label class="col-sm-2 col-form-label">Hình Ảnh</label>
                     <div class="col-sm-10">
                         <input type="text" class="form-control" v-model="product.imageUrl" >
 

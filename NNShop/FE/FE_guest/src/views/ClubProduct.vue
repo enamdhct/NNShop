@@ -5,7 +5,7 @@
             <div>
                 <nav class="navbar navbar-light bg-light">
                     <a class="navbar-brand" href="#">
-                        <p class="tab">Áo thi đấu câu lạc bộ</p>
+                        <p class="tab">Áo Thi Đấu Câu Lạc Bộ</p>
                     </a>
                 </nav>
             </div>

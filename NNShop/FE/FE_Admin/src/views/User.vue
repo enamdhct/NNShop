@@ -18,13 +18,13 @@ export default{
 </script>
 <template>
     <div class="container">
-        <h1 class="text-center">Thông tin tài khoản</h1>
+        <h1 class="text-center">Thông Tin Tài Khoản</h1>
         <div class="row mt-4">
             <div class="col-2">
                 <img src="../assets/logo.png" alt="" width="150" height="150">
             </div>
             <div class="col-8 head-user">
-                <p><label for="">Tên đăng nhập:  </label> {{username}}</p>
+                <p><label for="">Tên Đăng Nhập:  </label> {{username}}</p>
                 <p><label for="">UID: </label> {{_id}}</p>
             </div>
             <div class="col-2">
@@ -36,19 +36,19 @@ export default{
                 </router-link>
             </div>
         </div>
-        <div class="mt-4 space"><h2>Thông tin cá nhân</h2></div>
+        <div class="mt-4 space"><h2>Thông Tin Cá Nhân</h2></div>
         <div class="row mt-4">
             <div class="col-12 userdetail">
                 <div class="row">
-                    <div class="col-3 d-inline"><label for="">Họ và tên:  </label></div>
+                    <div class="col-3 d-inline"><label for="">Họ Và Tên:  </label></div>
                     <div class="col-9 d-inline"><p> {{name}}</p></div>
                 </div>
                 <div class="row">
-                    <div class="col-3 d-inline"><label for="">Địa chỉ:  </label></div>
+                    <div class="col-3 d-inline"><label for="">Địa Chỉ:  </label></div>
                     <div class="col-9 d-inline"><p>{{address}}</p></div>
                 </div>
                 <div class="row">
-                    <div class="col-3 d-inline"><label for="">Số điện thoại:  </label></div>
+                    <div class="col-3 d-inline"><label for="">Số Điện Thoại:  </label></div>
                     <div class="col-9 d-inline"><p>{{phone}}</p></div>
                 </div>
                 <div class="row">
@@ -57,7 +57,7 @@ export default{
                 </div>
             </div>
         </div>
-        <div class="mt-4 space"><h2>Thông tin tài khoản</h2></div>
+        <div class="mt-4 space"><h2>Thông Tin Tài Khoản</h2></div>
         <div class="row mt-4">
             <div class="col-12 userdetail">
                 <div class="row">

@@ -40,16 +40,16 @@ import CartService from "../services/cart.service";
 
             <p class="col-4">Mã đơn</p>
             <div class="col-2">
-                <p>Tên sản phẩm</p>
+                <p>Tên Sản Phẩm</p>
             </div>
             <div class="col-2">
-                <p>Khích thước</p>
+                <p>Khích Thước</p>
             </div>
             <div class="col-2">
-                <p>Trạng thái</p>
+                <p>Trạng Thái</p>
             </div>
             <div class="col-2">
-                <p>Số lượng</p>
+                <p>Số Lượng</p>
             </div>
         </div>
         

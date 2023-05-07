@@ -35,18 +35,18 @@ import CartService from "../services/cart.service";
         </div>
         <div class="row text-center shadow-sm cart-header">
 
-            <p class="col-3">Mã đơn</p>
+            <p class="col-3">Mã Đơn</p>
             <div class="col-3">
                 <p>Tên SP</p>
             </div>
             <div class="col-2 text-center">
-                <p>Trạng thái</p>
+                <p>Trạng Thái</p>
             </div>
             <div class="col-2">
-                <p>Số lượng</p>
+                <p>Số Lượng</p>
             </div>
             <div class="col-2">
-                <p>Tháo tác</p>
+                <p>Tháo Tác</p>
             </div>
         </div>
         
@@ -63,7 +63,7 @@ import CartService from "../services/cart.service";
                 <div class="col-2">
 
                     <router-link :to="{name: 'UserOrder', params: {id: cart._id}}">
-                        <button class="btn btn-success mr-2">Đặt hàng</button>
+                        <button class="btn btn-success mr-2">Đặt Hàng</button>
                     </router-link>
       
                     <button class="btn btn-danger" @click="DeleteCart(cart._id)">Xóa</button>

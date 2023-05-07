@@ -70,7 +70,7 @@ export default {
     <div class="row col-12">
         <div class="row col-12">
             <router-link :to="{ name: 'AddCart'}" class="col-3">
-                <button type="button" class="btn btn-primary">Thêm mới</button>
+                <button type="button" class="btn btn-primary">Thêm Mới</button>
             </router-link>
             <div class="col-5"></div>
             <SearchTable class="col-4" v-model="searchText" />
@@ -81,12 +81,12 @@ export default {
             <thead>
                 <tr>
                     <th scope="col">#</th>
-                    <th scope="col">Mã đơn hàng</th>
-                    <th scope="col">Tên sản phẩm</th>
-                    <th scope="col">Kích thước</th>
+                    <th scope="col">Mã Đơn Hàng</th>
+                    <th scope="col">Tên Sản Phẩm</th>
+                    <th scope="col">Kích Thước</th>
 
-                    <th scope="col">Trạng thái</th>
-                    <th scope="col">Số áo</th>
+                    <th scope="col">Trạng Thái</th>
+                    <th scope="col">Số Áo</th>
                 </tr>
             </thead>
             <tbody v-if="filteredCartsCount > 0"  v-for="(cart, index) in  carts.filter(cart => cart.state === 'đang giao')" :key="cart._id" :class="{ active: index === activeIndex }">

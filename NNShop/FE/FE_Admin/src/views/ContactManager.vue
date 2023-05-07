@@ -49,7 +49,7 @@ export default {
 </script>
 <template>
     <div>
-        <h2 class="mb-4">Danh sách liên hệ </h2>
+        <h2 class="mb-4">Danh Sách Liên Hệ </h2>
         <div>
             <ContactTable                 
                 v-if="filteredcontactsCount > 0"

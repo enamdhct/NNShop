@@ -49,7 +49,7 @@ export default {
 </script>
 <template>
     <div>
-        <h2 class="mb-4">Danh sách liên hệ </h2>
+        <h2 class="mb-4">Danh Sách Liên Hệ </h2>
         <div class="row">
             <ContactTable                 
                 v-if="filteredcontactsCount > 0"
@@ -57,7 +57,7 @@ export default {
                 v-model:activeIndex="activeIndex">
             </ContactTable>
             <div v-else >
-                <p class="text-center" style="width: 500px; font-size: 20px">Không có liên hệ nào</p>
+                <p class="text-center" style="width: 500px; font-size: 20px">Không Có Liên Hệ Nào</p>
             </div>
         </div>
     </div>

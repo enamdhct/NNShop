@@ -60,7 +60,7 @@ export default {
 </style>
 <template>
     <div>
-        <h2>Danh sách khuyến mãi</h2>
+        <h2>Danh Sách Khuyến Mãi</h2>
         <div>
             <PromotionTable                 
                 v-if="filteredPromotionsCount > 0"

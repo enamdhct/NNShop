@@ -76,26 +76,26 @@ export default {
 </script>
 <template>
     <nav class="navbar navbar-light shadow-sm" style="background-color: #ff6b6b;">
-        <p class="text-header text-white"><i class="fa-solid fa-envelope p-2"></i>nnshop@gmail.com&emsp;&emsp; <i class="fa-solid fa-phone p-2"></i>hostline: 0123456789</p>
+        <p class="text-header text-white"><i class="fa-solid fa-envelope p-2"></i>nnshop@gmail.com&emsp;&emsp; <i class="fa-solid fa-phone p-2"></i>Hostline: 0123456789</p>
         <div class="nav link">
             <li class="nav-item">
                 <router-link :to="{name: 'about'}">
-                    <a class="nav-link text-white" href="#">Giới thiệu </a>
+                    <a class="nav-link text-white" href="#">Giới Thiệu </a>
                 </router-link>
             </li>
             <li class="nav-item">
                 <router-link :to="{name: 'contact'}">
-                    <a class="nav-link text-white" href="#">Liên hệ </a>
+                    <a class="nav-link text-white" href="#">Liên Hệ </a>
                 </router-link>
             </li>
             <li class="nav-item ">
                 <router-link :to="{name:'register'}">
-                    <a class="nav-link text-white" href="/register">Đăng ký</a>
+                    <a class="nav-link text-white" href="/register">Đăng Ký</a>
                 </router-link>
             </li>
             <li class="nav-item ">
                 <router-link :to="{name:'login'}">
-                        <a class="nav-link text-white" v-if="!token">Đăng nhập</a>
+                        <a class="nav-link text-white" v-if="!token">Đăng Nhập</a>
                 </router-link>
             </li>
             <li class="nav-item">
@@ -106,23 +106,23 @@ export default {
                     <div class="dropdown-menu">
 
                         <router-link :to="{name: 'usermanager'}">
-                            <a class="dropdown-item" href="#">Xin chào: <p>{{username}}</p></a>
+                            <a class="dropdown-item" href="#">Xin Chào: <p>{{username}}</p></a>
                         </router-link>
                         <router-link :to="{name: 'CartUserState'}">
-                            <a class="dropdown-item" href="#">Đơn hàng của tôi</a>
+                            <a class="dropdown-item" href="#">Đơn Hàng Của Tôi</a>
                         </router-link>
                         <router-link :to="{name: 'contactUser'}">
-                            <a class="dropdown-item" href="#">Liên hệ của tôi</a>
+                            <a class="dropdown-item" href="#">Liên Hệ Của Tôi</a>
                         </router-link>
 
                         <router-link :to="{name: 'statistical'}" >
-                            <a class="dropdown-item" href="#"  v-if="admin === 'Admin'">Quản trị</a>
+                            <a class="dropdown-item" href="#"  v-if="admin === 'Admin'">Quản Trị</a>
                         </router-link>
                         <router-link :to="{name: 'statisticalview'}">
-                            <a class="dropdown-item" href="#" v-if="admin === 'Admin'">Thống kê</a>
+                            <a class="dropdown-item" href="#" v-if="admin === 'Admin'">Thống Kê</a>
                         </router-link>
                         <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="#"  @click="Logout">Đăng xuất</a>
+                            <a class="dropdown-item" href="#"  @click="Logout">Đăng Xuất</a>
                     </div>
                 </div>
             </li>
@@ -147,32 +147,32 @@ export default {
         <ul class="nav justify-content-center link">
             <li class="nav-item">
                 <router-link  :to="{name: 'home'}">
-                    <a class="nav-link" href="#">Trang chủ</a>
+                    <a class="nav-link" href="#">Trang Chủ</a>
                 </router-link>
             </li>
             <li class="nav-item">
                 <router-link :to="{name: 'about'}">
-                    <a class="nav-link" href="#">Giới thiệu</a>
+                    <a class="nav-link" href="#">Giới Thiệu</a>
                 </router-link>
             </li>
             <li class="nav-item">
                 <router-link :to="{name:  'productclub'}">
-                    <a class="nav-link" href="#">Áo câu lạc bộ</a>
+                    <a class="nav-link" href="#">Áo Câu Lạc Bộ</a>
                 </router-link>
             </li>
             <li class="nav-item">
                 <router-link :to="{name : 'productteam'}">
-                    <a class="nav-link" href="#">Áo đội tuyển</a>
+                    <a class="nav-link" href="#">Áo Đội Tuyển</a>
                 </router-link>
             </li>
             <li class="nav-item">
                 <router-link :to="{name: 'promotion'}">
-                    <a class="nav-link" href="#">Khuyến mãi</a>
+                    <a class="nav-link" href="#">Khuyến Mãi</a>
                 </router-link>
             </li>
             <li class="nav-item">
                 <router-link :to="{name: 'CartUser'}">
-                    <a class="nav-link" href="#"><i class="fa-solid fa-cart-shopping pl-2"></i> Giỏ hàng</a>
+                    <a class="nav-link" href="#"><i class="fa-solid fa-cart-shopping pl-2"></i> Giỏ Hàng</a>
                 </router-link>
 
             </li>

@@ -1,6 +1,6 @@
 <template class="bg-light text-white mt-4 fixed-bottom">
     <div class="contact text-center">
-        <h3>Thông tin liên hệ</h3>
+        <h3>Thông Tin Liên Hệ</h3>
         <p>Địa chỉ: Khu II, Đ. 3/2, Xuân Khánh, Ninh Kiều, Cần Thơ <br>
         Hotline: 19000091 <br>
     Email: NNstore@gmail.com</p>

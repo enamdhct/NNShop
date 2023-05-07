@@ -16,15 +16,15 @@
             {{ product.clb }}
         </div>
         <div class="p-1">
-            <strong>So ao:</strong>
+            <strong>Số Áo:</strong>
             {{ product.number }}
         </div>
         <div class="p-1">
-            <strong>ten cau thu:</strong>
+            <strong>Tên Cầu Thủ:</strong>
             {{ product.namepl }}
         </div>
         <div class="p-1">
-            <strong>San pham yêu thích:&nbsp;</strong>
+            <strong>Sản Phẩm Yêu thích:&nbsp;</strong>
             <i v-if="product.shopping" class="fas fa-check" ></i>
             <i v-else class="fas fa-times"></i>
         </div>

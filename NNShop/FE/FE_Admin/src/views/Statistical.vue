@@ -1,13 +1,13 @@
 <template>
-    <h1>Biểu đồ thống kê</h1>
+    <h1>Biểu Đồ Thống Kê</h1>
     <!-- <button @click="fetchData()">hihi</button> -->
     <div class="chart mb-4">
-        <h3>Thống kê số sản phẩm trong kho</h3>
+        <h3>Thống Kê Số Sản Phẩm Trong Kho</h3>
         <canvas id="myChart1"></canvas>
     </div>
     <br>
     <div class="mt-4 chart">
-        <h3>Thống kê số đơn hàng</h3>
+        <h3>Thống Kê Số Đơn Hàng</h3>
         <canvas id="myChart2"></canvas>
     </div>
 </template>

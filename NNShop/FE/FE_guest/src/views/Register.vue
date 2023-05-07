@@ -7,18 +7,18 @@
                 <form @submit="handleSubmit" class="form-item">
                     <div class="form-group">
                         <div class="form-group">
-                            <label style="font-weight:bolder">Họ và Tên:</label>
+                            <label style="font-weight:bolder">Họ Và Tên:</label>
                             <input type="text" class="form-control" v-model="name" placeholder=" Nhập vào name">
                         </div>
                         <label style="font-weight:bolder">UserName:</label>
                         <input type="text" class="form-control" v-model="username" placeholder=" Nhập vào username">
                     </div>
                     <div class="form-group">
-                        <label style="font-weight:bolder">Mật khẩu:</label>
+                        <label style="font-weight:bolder">Mật Khẩu:</label>
                         <input type="password" class="form-control" v-model="password" placeholder=" Nhập vào Password">
                     </div>
                     <div class="form-group">
-                        <label style="font-weight:bolder">Nhập lại mật khẩu:</label>
+                        <label style="font-weight:bolder">Nhập Lại Mật Khẩu:</label>
                         <input type="password" class="form-control" v-model=password_confirm
                             placeholder=" Nhập vào Password ">
                     </div>
@@ -27,11 +27,11 @@
                         <input type="email" class="form-control" v-model="email" placeholder=" Nhập vào Email">
                     </div>
                     <div class="form-group">
-                        <label style="font-weight:bolder">Số điện thoại:</label>
+                        <label style="font-weight:bolder">Số Điện Thoại:</label>
                         <input type="number" class="form-control" v-model="phone" placeholder=" Nhập vào SDT">
                     </div>
                     <div class="form-group">
-                        <label style="font-weight:bolder">Địa chỉ</label>
+                        <label style="font-weight:bolder">Địa Chỉ</label>
                         <input type="text" class="form-control" v-model="address" placeholder=" Nhập vào Dia chi">
                     </div>
                     <div class="form-check" style="margin-bottom: 5%;">

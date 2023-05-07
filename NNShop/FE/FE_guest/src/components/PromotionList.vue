@@ -40,8 +40,8 @@
             <div class="col-md-8">
               <div class="card-body">
                 <h5 class="card-title">{{promotion.name}}</h5>
-                <p class="card-text">Thời gian bắt đầu: {{promotion.start}}</p>
-                <p class="card-text">Thời gian kết thúc: {{promotion.end}}</p>
+                <p class="card-text">Thời Gian Bắt Đầu: {{promotion.start}}</p>
+                <p class="card-text">Thời Gian Kết Thúc: {{promotion.end}}</p>
                 <p class="card-text">Thể lệ: {{promotion.description}}</p>
               </div>
             </div>

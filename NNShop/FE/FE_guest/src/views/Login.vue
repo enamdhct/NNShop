@@ -1,6 +1,6 @@
 <template>
     <div class="container" style="margin-bottom:100px">  
-        <h1 style="text-align:center">Đăng nhập</h1> 
+        <h1 style="text-align:center">Đăng Nhập</h1> 
         <br />
         <br />
         <div class="row">

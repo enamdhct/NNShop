@@ -8,7 +8,7 @@
                 <div>
                     <nav class="navbar navbar-light bg-light">
                         <a class="navbar-brand" href="#">
-                            <p class="tab">Áo ngẫu nhiên</p>
+                            <p class="tab">Áo Ngẫu Nhiên</p>
                         </a>
                     </nav>
                 </div>
@@ -21,7 +21,7 @@
                 <div>
                     <nav class="navbar navbar-light bg-light">
                         <a class="navbar-brand" href="#">
-                            <p class="tab">Áo đấu của đội tuyển quốc gia</p>
+                            <p class="tab">Áo Đấu Của Đội Tuyển Quốc Gia</p>
                         </a>
                     </nav>
                 </div>
@@ -34,7 +34,7 @@
                 <div>
                     <nav class="navbar navbar-light bg-light">
                         <a class="navbar-brand" href="#">
-                            <p class="tab">Áo đấu của câu lạc bộ</p>
+                            <p class="tab">Áo Đấu Của Câu Lạc Bộ</p>
                         </a>
                     </nav>
                 </div>

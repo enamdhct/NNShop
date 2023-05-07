@@ -58,7 +58,7 @@ export default {
     <div class="row col-12">
         <div class="row col-12">
             <router-link :to="{ name: 'AddUser', }" class="col-3">
-                <button type="button" class="btn btn-primary">Thêm mới</button>
+                <button type="button" class="btn btn-primary">Thêm Mới</button>
             </router-link>
             <div class="col-5"></div>
             <SearchTable class="col-4" v-model="searchText" />
@@ -70,10 +70,10 @@ export default {
                 <tr>
                     <th scope="col">#</th>
                     <th scope="col">Username</th>
-                    <th scope="col">Chức năng</th>
-                    <th scope="col">Họ và tên</th>
-                    <th scope="col">Thời gian tạo</th>
-                    <th scope="col">Hiệu chỉnh</th>
+                    <th scope="col">Chức Năng</th>
+                    <th scope="col">Họ Và Tên</th>
+                    <th scope="col">Thời Gian Tạo</th>
+                    <th scope="col">Hiệu Chỉnh</th>
                 </tr>
             </thead>
             <tbody v-if="filteredUsersCount > 0"  v-for="(user, index) in  filteredUsers" :key="user._id" :class="{ active: index === activeIndex }">

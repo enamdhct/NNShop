@@ -102,7 +102,7 @@ export default {
 </script>
 <template>
     <nav class="navbar navbar-light shadow-sm" style="background-color: #ff6b6b;">
-        <p class="text-header text-white"><i class="fa-solid fa-envelope p-2"></i>nnshop@gmail.com&emsp;&emsp; <i class="fa-solid fa-phone p-2"></i>hostline: 0123456789</p>
+        <p class="text-header text-white"><i class="fa-solid fa-envelope p-2"></i>nnshop@gmail.com&emsp;&emsp; <i class="fa-solid fa-phone p-2"></i>Hostline: 0123456789</p>
         <div class="nav link">
             <!-- <li class="nav-item">
                 <router-link :to="{name: 'about'}">
@@ -121,7 +121,7 @@ export default {
             </li> -->
             <li class="nav-item ">
                 <router-link :to="{name:'login'}">
-                        <a class="nav-link text-white" v-if="!token">Đăng nhập</a>
+                        <a class="nav-link text-white" v-if="!token">Đăng Nhập</a>
                 </router-link>
             </li>
             <li class="nav-item">
@@ -132,7 +132,7 @@ export default {
                     <div class="dropdown-menu">
 
                         <router-link :to="{name: 'usermanager'}">
-                            <a class="dropdown-item" href="#">Xin chào: <p>{{username}}</p></a>
+                            <a class="dropdown-item" href="#">Xin Chào: <p>{{username}}</p></a>
                         </router-link>
                         <!-- <router-link :to="{name: 'CartUserState'}">
                             <a class="dropdown-item" href="#">Đơn hàng của tôi</a>
@@ -148,7 +148,7 @@ export default {
                             <a class="dropdown-item" href="#" v-if="admin === 'Admin'">Thống kê</a>
                         </router-link> -->
                         <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="#"  @click="Logout">Đăng xuất</a>
+                            <a class="dropdown-item" href="#"  @click="Logout">Đăng Xuất</a>
                     </div>
                 </div>
             </li>

@@ -4,19 +4,19 @@
         <form @submit="AddContact(contact)" class="form-item">
             <div class="form-group" >
                 <div class="row mt-4">
-                    <label class="col-sm-2 col-form-label">Vấn đề</label>
+                    <label class="col-sm-2 col-form-label">Vấn Đề</label>
                     <div class="col-sm-10">
                         <input type="text" class="form-control"  v-model="contact.problem">
                     </div>
                 </div>
                 <div class="row mt-4">
-                    <label class="col-sm-2 col-form-label">Thời gian xãy ra</label>
+                    <label class="col-sm-2 col-form-label">Thời Gian Xãy Ra</label>
                     <div class="col-sm-10">
                         <input type="text" class="form-control"  v-model="contact.time">
                     </div>
                 </div>
                 <div class="row mt-4">
-                    <label class="col-sm-2 col-form-label">Mô tả</label>
+                    <label class="col-sm-2 col-form-label">Mô Tả</label>
                     <div class="col-sm-10">
                         <input type="text" class="form-control"  v-model="contact.description">
                     </div>
@@ -28,7 +28,7 @@
                     </div>
                 </div> 
                 <div class="row mt-4">
-                    <label class="col-sm-2 col-form-label">Minh họa</label>
+                    <label class="col-sm-2 col-form-label">Minh Họa</label>
                     <div class="col-sm-10">
                         <input type="text" class="form-control" v-model="contact.imageUrl" >
 

@@ -26,7 +26,7 @@
         <a-menu-item key="1">
           <template>
           </template>
-          <span style="font-size: 20px;">Thống kê </span>
+          <span style="font-size: 20px;">THỐNG KÊ </span>
         </a-menu-item>
         </router-link>
         <router-link :to="{ name: 'OrderCheck' }">
@@ -34,29 +34,29 @@
           <template>
 
           </template>
-          <span style="font-size: 20px">Kiểm tra đơn hàng </span>
+          <span style="font-size: 20px">KIỂM TRA ĐƠN HÀNG </span>
         </a-menu-item>
       </router-link>
         <a-sub-menu key="sub1" class="shadow-lg">
           <template #icon>
             <AppstoreOutlined />
           </template>
-          <template #title>          <span style="font-size: 20px">Quản lý </span></template>
+          <template #title>          <span style="font-size: 20px">QUẢN LÝ </span></template>
           <router-link :to="{ name: 'ordermanager' }">
-            <a-menu-item key="3" style="font-size: 17px">Quản lý đơn hàng</a-menu-item>
+            <a-menu-item key="3" style="font-size: 17px">QUẢN LÝ ĐƠN HÀNG</a-menu-item>
             </router-link>
             <router-link :to="{ name: 'productmanager' }">
 
-              <a-menu-item key="4" style="font-size: 17px">Quản lý sản phẩm</a-menu-item>
+              <a-menu-item key="4" style="font-size: 17px">QUẢN LÝ SẢN PHẨM</a-menu-item>
             </router-link>
             <router-link :to="{ name: 'accountmanager' }">
-              <a-menu-item key="5" style="font-size: 17px">Quản lý tài khoản</a-menu-item>
+              <a-menu-item key="5" style="font-size: 17px">QUẢN LÝ TÀI KHOẢN</a-menu-item>
             </router-link>
             <router-link :to="{ name: 'promotionmanager' }">
-              <a-menu-item key="6" style="font-size: 17px">Quản lý khuyến mãi</a-menu-item>
+              <a-menu-item key="6" style="font-size: 17px">QUẢN LÝ KHUYẾN MÃI</a-menu-item>
             </router-link>
             <router-link :to="{ name: 'contactnmanager' }">
-              <a-menu-item key="7" style="font-size: 17px">Quản lý liên hệ</a-menu-item>
+              <a-menu-item key="7" style="font-size: 17px">QUẢN LÝ LIÊN HỆ</a-menu-item>
             </router-link>
         </a-sub-menu>
       </a-menu>

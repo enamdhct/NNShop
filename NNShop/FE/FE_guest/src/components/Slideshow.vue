@@ -3,7 +3,7 @@
         border-radius: 10px;
     }
     .slideshow img {
-        height: 650px;
+        height: 550px;
         width: 100%;
     }
 </style>
@@ -18,19 +18,19 @@
         </ol>
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="https://media.bongdasky.com/thumb_w/editors/2021/07/26/lyLabDCR3rbEHjLIrWMWEG8iz55mNW8trlPads3N_680.jpg" class="d-block w-100" alt="...">
+                <img src="https://m.media-amazon.com/images/S/aplus-media-library-service-media/784413e7-d487-43cd-93eb-73259d711caa.__CR0,72,3000,1856_PT0_SX970_V1___.png" class="d-block w-100" alt="...">
             </div>
             <div class="carousel-item">
-                <img src="https://media.bongda.com.vn/files/huy.phandang/2022/07/26/4194-0700.jpg" class="d-block w-100" alt="...">
+                <img src="https://todosobrecamisetas.com/wp-content/uploads/psv-eindhoven-2020-21-puma-home-kit-h.jpg" class="d-block w-100" alt="...">
             </div>
             <div class="carousel-item">
-                <img src="https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/if_w_gt_1920,w_1920/enGB/Images/football-ss23-italy-feds-away-pdp-mh-d_tcm143-974355.jpg" class="d-block w-100" alt="...">
+                <img src="https://s1.eestatic.com/2022/05/16/elbernabeu/real-madrid/futbol/672942862_224339964_1706x960.jpg" class="d-block w-100" alt="...">
             </div>
             <div class="carousel-item">
-                <img src="https://media.bongda.com.vn/files/huy.phandang/2022/07/26/4201-0700.jpg" class="d-block w-100" alt="...">
+                <img src="https://www.passionemaglie.it/wp-content/uploads/2022/05/borussia-dortmund-maglia-2023.jpg" class="d-block w-100" alt="...">
             </div>
             <div class="carousel-item">
-                <img src="https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/if_w_gt_1920,w_1920/enGB/Images/football-fw22-manchesterunited-away-pdp-masthead-d_tcm143-907213.jpg" class="d-block w-100" alt="...">
+                <img src="https://assets-eu-01.kc-usercontent.com/1293c890-579f-01b7-8480-902cca7de55e/dc971440-9212-4ca7-9b0e-85f832248967/2021.07.21-CU-AwayKit-WebHP.png?auto=format" class="d-block w-100" alt="...">
             </div>
         </div>
         <button class="carousel-control-prev" type="button" data-target="#carouselExampleIndicators" data-slide="prev">

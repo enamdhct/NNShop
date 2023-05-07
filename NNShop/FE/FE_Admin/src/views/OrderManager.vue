@@ -49,7 +49,7 @@ export default {
 </script>
 <template>
     <div>
-        <h2 class="mb-4">Danh sách đơn hàng</h2>
+        <h2 class="mb-4">Danh Sách Đơn Hàng</h2>
         <div class="row">
             <OrderTable                 
                 v-if="filteredcartsCount > 0"

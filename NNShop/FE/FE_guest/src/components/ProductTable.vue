@@ -70,11 +70,11 @@
             <thead>
                 <tr>
                     <th scope="col">#</th>
-                    <th scope="col">Tên sản phẩm</th>
+                    <th scope="col">Tên Sản Phẩm</th>
                     <th scope="col">Giá</th>
-                    <th scope="col">Loại sản phẩm</th>
-                    <th scope="col">Số lượng</th>
-                    <th scope="col">Hiệu chỉnh</th>
+                    <th scope="col">Loại Sản Phẩm</th>
+                    <th scope="col">Số Lượng</th>
+                    <th scope="col">Hiệu Chỉnh</th>
                 </tr>
             </thead>
             <tbody  v-if="filteredProductsCount > 0"       

@@ -2,10 +2,10 @@
     <div v-if="product" class="form shadow-lg">
 
         <form @submit.prevent="EditProduct(id, product)" class="form-item">
-            <h3 class="text-center mt-4">Thay đổi thông tin sản phẩm</h3>
+            <h3 class="text-center mt-4">Thay Đổi Thông Tin Sản Phẩm</h3>
             <div class="form-group">
                 <div class="row mt-4">
-                    <label class="col-sm-2 col-form-label">Tên sản phẩm</label>
+                    <label class="col-sm-2 col-form-label">Tên Sản Phẩm</label>
                     <div class="col-sm-10">
                         <input type="text" class="form-control"  v-model="product.name">
                     </div>
@@ -17,25 +17,25 @@
                     </div>
                 </div>
                 <div class="row mt-4">
-                    <label class="col-sm-2 col-form-label">Số lượng</label>
+                    <label class="col-sm-2 col-form-label">Số Lượng</label>
                     <div class="col-sm-10">
                         <input type="text" class="form-control"  v-model="product.amount">
                     </div>
                 </div>
                 <div class="row mt-4">
-                    <label class="col-sm-2 col-form-label">Giá bán</label>
+                    <label class="col-sm-2 col-form-label">Giá Bán</label>
                     <div class="col-sm-10">
                         <input type="text" class="form-control"  v-model="product.price">
                     </div>
                 </div>
                 <div class="row mt-4">
-                    <label class="col-sm-2 col-form-label">Biên chế</label>
+                    <label class="col-sm-2 col-form-label">Biên Chế</label>
                     <div class="col-sm-10">
                         <input type="text" class="form-control"  v-model="product.club">
                     </div>
                 </div> 
                 <div class="row mt-4">
-                    <label class="col-sm-2 col-form-label">Hình ảnh</label>
+                    <label class="col-sm-2 col-form-label">Hình Ảnh</label>
                     <div class="col-sm-10">
                         <input type="file" @change="previewFiles" multiple >
 
@@ -45,7 +45,7 @@
 
                 <button class="btn btn-primary mt-4">Lưu</button>
                 <router-link :to="{name: 'productmanager'}"> 
-                    <button type="button" class="btn btn-secondary ml-4 mt-4">Quay lại</button>
+                    <button type="button" class="btn btn-secondary ml-4 mt-4">Quay Lại</button>
                 </router-link>
             </div>
         </form>

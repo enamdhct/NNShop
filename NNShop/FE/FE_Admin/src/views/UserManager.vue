@@ -49,7 +49,7 @@ export default {
 </script>
 <template>
     <div>
-        <h2 class="mb-4">Danh sách tài khoản</h2>
+        <h2 class="mb-4">Danh Sách Tài Khoản</h2>
         <div class="row">
             <Tableuser                 
                 v-if="filteredusersCount > 0"

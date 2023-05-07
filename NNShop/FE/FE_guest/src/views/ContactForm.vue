@@ -1,6 +1,6 @@
 <template>
     <div class="form shadow-lg mb-4">
-      <h3 class="text-center mt-4">Bạn gặp vấn đề gì</h3>
+      <h3 class="text-center mt-4">Bạn Gặp Vấn Đề Gì</h3>
       <form
         v-on:submit="AddContact"
         class="form-item"
@@ -8,19 +8,19 @@
       >
         <div class="form-group">
           <div class="row mt-4">
-            <label class="col-sm-2 col-form-label">Vấn đề</label>
+            <label class="col-sm-2 col-form-label">Vấn Đề</label>
             <div class="col-sm-10">
               <input type="text" class="form-control" v-model="contact.problem" />
             </div>
           </div>
           <div class="row mt-4">
-            <label class="col-sm-2 col-form-label">Thời gian xãy ra</label>
+            <label class="col-sm-2 col-form-label">Thời Gian Xãy Ra</label>
             <div class="col-sm-10">
               <input type="date" class="form-control" v-model="contact.time" />
             </div>
           </div>
           <div class="row mt-4">
-            <label class="col-sm-2 col-form-label">Mô tả</label>
+            <label class="col-sm-2 col-form-label">Mô Tả</label>
             <div class="col-sm-10">
               <input
                 type="text"
@@ -46,7 +46,7 @@
             </div>
           </div> -->
           <div class="row mt-4">
-            <label class="col-sm-2 col-form-label">Minh họa</label>
+            <label class="col-sm-2 col-form-label">Minh Họa</label>
             <div class="col-sm-10">
               <input type="file" @change="previewFiles" multiple />
             </div>

@@ -58,7 +58,7 @@
     <div>
         <div class="row col-12">
             <router-link :to="{ name: 'AddPromotion', }" class="col-3">
-                <button type="button" class="btn btn-primary">Thêm mới</button>
+                <button type="button" class="btn btn-primary">Thêm Mới</button>
             </router-link>
             <div class="col-5"></div>
             <SearchTable class="col-4" v-model="searchText" />
@@ -68,11 +68,11 @@
             <thead>
                 <tr>
                     <th scope="col">#</th>
-                    <th scope="col">Tên Khuyến mãi</th>
-                    <th scope="col">Ưu đãi</th>
-                    <th scope="col">Thời gian bắt đầu</th>
-                    <th scope="col">Thời gian kết thúc</th>
-                    <th scope="col">Hiệu chỉnh</th>
+                    <th scope="col">Tên Khuyến Mãi</th>
+                    <th scope="col">Ưu Đãi</th>
+                    <th scope="col">Thời Gian Bắt Đầu</th>
+                    <th scope="col">Thời Gian Kết Thúc</th>
+                    <th scope="col">Hiệu Chỉnh</th>
                 </tr>
             </thead>
             <tbody     v-if="filteredPromotionsCount > 0"    

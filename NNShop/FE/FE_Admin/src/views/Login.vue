@@ -1,6 +1,6 @@
 <template>
     <div class="container" style="margin-bottom:100px">  
-        <h1 style="text-align:center">Đăng nhập</h1> 
+        <h1 style="text-align:center">Đăng Nhập</h1> 
         <br />
         <br />
         <div class="row">
@@ -25,11 +25,11 @@
                     </div>
                     <div>
                         <!-- <router-link :to="{name: 'home'} "> -->
-                            <button type="submit" style="width:48%; margin: 0 0 5px 5px" class="btn btn-primary">ĐĂNG NHẬP</button>
+                            <button type="submit" style="width:100%; margin: 0 0 5px 5px" class="btn btn-primary">ĐĂNG NHẬP</button>
                         <!-- </router-link> -->
-                        <router-link :to="{name: 'register'} ">
+                        <!-- <router-link :to="{name: 'register'} ">
                             <button type="submit" style="width:48%; margin: 0 0 5px 5px;" class="btn btn-danger">ĐĂNG KÝ</button>
-                        </router-link>
+                        </router-link> -->
                     </div>
                     
                 </form>

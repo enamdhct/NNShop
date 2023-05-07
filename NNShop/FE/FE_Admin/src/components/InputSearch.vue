@@ -31,7 +31,7 @@
             @click="submit"
             style="height:fit-content; background-color: #1dd1a1;"
             >
-                <i class="fas fa-search"></i> Tìm kiếm
+                <i class="fas fa-search"></i> Tìm Kiếm
             </button>
         </div>
     </div>

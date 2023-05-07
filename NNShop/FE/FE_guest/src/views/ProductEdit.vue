@@ -1,6 +1,6 @@
 <template>
     <div v-if="product" class="page">
-        <h4>Hiệu chỉnh Liên hệ</h4>
+        <h4>Hiệu Chỉnh Liên Hệ</h4>
         <ProductForm
         :product="product"
         @submit:product="updateProduct"

@@ -1,6 +1,6 @@
 <template>
     <div class="form shadow-lg">
-        <h3 class="text-center mt-4">Thêm tài khoản</h3>
+        <h3 class="text-center mt-4">Thêm Tài Khoản</h3>
         <form @submit="AddUser(user)" class="form-item">
             <div class="form-group" >
                 <div class="row mt-4">
@@ -16,13 +16,13 @@
                     </div>
                 </div>
                 <div class="row mt-4">
-                    <label class="col-sm-2 col-form-label">Chức vụ</label>
+                    <label class="col-sm-2 col-form-label">Chức Vụ</label>
                     <div class="col-sm-10">
                         <input type="text" class="form-control"  v-model="user.admin">
                     </div>
                 </div>
                 <div class="row mt-4">
-                    <label class="col-sm-2 col-form-label">Họ và tên</label>
+                    <label class="col-sm-2 col-form-label">Họ Và Tên</label>
                     <div class="col-sm-10">
                         <input type="text" class="form-control"  v-model="user.name">
                     </div>
@@ -40,7 +40,7 @@
                     </div>
                 </div>
                 <div class="row mt-4">
-                    <label class="col-sm-2 col-form-label">Địa chỉ</label>
+                    <label class="col-sm-2 col-form-label">Địa Chỉ</label>
                     <div class="col-sm-10">
                         <input type="text" class="form-control"  v-model="user.address">
                     </div>
@@ -49,7 +49,7 @@
                 
                 <button class="btn btn-primary mt-4">Thêm</button>
                 <router-link :to="{name: 'accountmanager'}"> 
-                    <button type="button" class="btn btn-secondary ml-4 mt-4">Quay lại</button>
+                    <button type="button" class="btn btn-secondary ml-4 mt-4">Quay Lại</button>
                 </router-link>
 
 
